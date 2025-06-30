@@ -13,7 +13,7 @@
 # print("Student:", is_student)
 
 #taking input from the user 
-# name = input("waht is you name")
+# name = input("what is you name")
 # print("hello",name)
 
 # age = input("Enter your age: ")
@@ -340,3 +340,90 @@
 #     print(ch)
 
 
+# def process_user_input():
+   
+#     print("--- Starting User Input Processor ---")
+
+#     # --- Part 1: Full Name Operations ---
+#     print("\n--- 1. Full Name Operations ---")
+#     full_name = input("Please enter your full name: ")
+
+#     # Print name in uppercase
+#     print(f"Uppercase: {full_name.upper()}")
+
+#     # Print name in lowercase
+#     print(f"Lowercase: {full_name.lower()}")
+
+#     # Print number of characters
+#     print(f"Number of characters: {len(full_name)}")
+#     print("-" * 30) # Separator
+
+
+#     # --- Part 2: Replace spaces with underscores in a sentence ---
+#     print("\n--- 2. Sentence Modification ---")
+#     sentence = input("Please enter a sentence: ")
+
+#     # Replace all spaces with underscores
+#     modified_sentence = sentence.replace(" ", "_")
+#     print(f"Sentence with underscores: {modified_sentence}")
+#     print("-" * 30) # Separator
+
+
+#     # --- Part 3: Comma-separated list of fruits ---
+#     print("\n--- 3. Fruit List Conversion ---")
+#     fruits_input = input("Please enter a comma-separated list of 3 fruits (e.g., Apple,Banana,Cherry): ")
+
+#     # Split the input string into a list using ',' as the delimiter
+#     # .strip() is used on each item to remove any leading/trailing whitespace
+#     fruits_list = [fruit.strip() for fruit in fruits_input.split(',')]
+
+#     print("Your fruits are:")
+#     # Print each fruit on a new line
+#     for fruit in fruits_list:
+#         print(fruit)
+#     print("-" * 30) # Separator
+
+#     print("\n--- User Input Processing Complete ---")
+
+# # Call the function to execute the program
+# process_user_input()
+
+
+# def create_person_dict(name, age, city):
+#     person_info = {
+#         "name": name,  # Use the 'name' argument
+#         "age": age,    # Use the 'age' argument
+#         "city": city   # Use the 'city' argument
+#     }
+#     return person_info
+
+# # Call the function and store the returned dictionary
+# amit_data = create_person_dict("Amit", 21, "Mumbai")
+# print(amit_data) # This will print the dictionary: {'name': 'Amit', 'age': 21, 'city': 'Mumbai'}
+
+# # You can call it with different values too
+# sara_data = create_person_dict("Sara", 25, "Bengaluru")
+# print(sara_data)
+
+# def print_person_info(name, age, city):
+    
+#     print(f"Name: {name}")
+#     print(f"Age: {age}")
+#     print(f"City: {city}")
+
+# # Call the function to print the information
+# print_person_info("Amit", 21, "Mumbai")
+
+# print("\n--- Another Person ---")
+# print_person_info("Priya", 30, "Delhi")
+
+
+# def student(name, roll, course):
+#     student_info = {
+#         "name": name,
+#         "roll": roll,
+#         "course": course
+#     }
+#     return student_info
+# data = student("amit", 101, "python")
+# print(data)
